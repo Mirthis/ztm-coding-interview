@@ -30,7 +30,7 @@ const maxArea = (height: number[]): number => {
   return maxArea;
 };
 
-const q2Inputs: Array<Array<number>> = [
+const inputs: Array<Array<number>> = [
   [], // 0
   [1], // 0
   [1, 5, 3, 7, 4], // 12
@@ -47,7 +47,7 @@ const q2Inputs: Array<Array<number>> = [
 // });
 
 console.log("Optitmized approach");
-q2Inputs.forEach((input) => {
+inputs.forEach((input) => {
   console.log(`Input: values ${input}`);
   console.log(`Output: ${maxAreaBruteForce(input)}`);
   console.log("");

@@ -1,4 +1,4 @@
-import { validAlmostPalindrome } from "./q7";
+import { validAlmostPalindrome } from "./q6b";
 
 describe("test Is Almost A Palindrome", () => {
   test("can remove either non matching character", () => {
